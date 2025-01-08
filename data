@@ -1,0 +1,12 @@
+# Data
+
+The data used for this project is an E-Commerce Sales Dataset. It contains the following fields:
+
+1. **Order ID**: Unique identifier for each order.
+2. **Date**: Order date.
+3. **State**: State where the order was placed.
+4. **Category**: Product category (e.g., Furniture, Electronics).
+5. **Profit**: Profit made from the order.
+6. **Payment Mode**: Payment method used (e.g., Credit Card, UPI, Cash on Delivery).
+
+**Note**: The dataset is included in this repository as `ecommerce_sales.xlsx`. If you encounter any issues, you can contact me for the dataset.
