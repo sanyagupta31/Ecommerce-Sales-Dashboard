@@ -46,5 +46,5 @@ The dashboard provides actionable insights for business stakeholders to understa
 ## How to Use
  Clone or download this repository:
    ```bash
-   git clone https://github.com/YourUsername/Ecommerce-Sales-Dashboard.git
+   git clone https://github.com/sanyagupta31/Ecommerce-Sales-Dashboard.git
 
