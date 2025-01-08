@@ -1,0 +1,16 @@
+# Scripts (Transformations and Calculations in Power BI)
+
+This project was entirely built using Power BI. The following steps were performed within Power BI:
+
+1. **Power Query Transformations**:
+   - Cleaned the dataset by removing null values.
+   - Filtered the data to include only the desired time range.
+   - Merged multiple tables (if applicable).
+
+2. **DAX Calculations**:
+   - Created the following calculated measures and columns:
+     - **Sum of Quantity**: `SUM(Orders[Quantity])`
+     - **Average Order Value (AOV)**: `DIVIDE(SUM(Orders[Amount]), COUNT(Orders[Order ID]))`
+     - **Profit Margin**: `DIVIDE(SUM(Orders[Profit]), SUM(Orders[Amount]))`
+
+All transformations and calculations are stored within the `.pbix` file and can be explored by opening it in Power BI.
